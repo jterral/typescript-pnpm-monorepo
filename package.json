@@ -1,0 +1,17 @@
+{
+  "name": "@monorepo/job",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build:all": "pnpm --recursive build",
+    "shared": "pnpm --filter @monorepo/shared",
+    "job": "pnpm --filter @monorepo/job"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  }
+}

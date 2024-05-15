@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    /* Module Options */
+    "target": "es2022",
+    "module": "node16",
+    "moduleResolution": "node16",
+    /* Basic Options */
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "skipLibCheck": true,
+    /* Experimental Options */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}

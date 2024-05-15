@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": true,
+  "search.exclude": {
+    "pnpm-lock.yaml": true,
+    "**/node_modules": true,
+  }
+}

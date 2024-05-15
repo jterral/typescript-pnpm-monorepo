@@ -1,0 +1,21 @@
+{
+  "name": "@monorepo/job",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --build",
+    "start:dev": "ts-node ./src/index.ts",
+    "start:prod": "node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@monorepo/shared": "workspace:*",
+    "cron": "^3.1.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
