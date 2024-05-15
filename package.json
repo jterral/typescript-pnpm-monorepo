@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "nuke": "rm -rf node_modules **/*/node_modules **/*/dist",
     "build:all": "pnpm --recursive build",
     "shared": "pnpm --filter @monorepo/shared",
     "job": "pnpm --filter @monorepo/job"
